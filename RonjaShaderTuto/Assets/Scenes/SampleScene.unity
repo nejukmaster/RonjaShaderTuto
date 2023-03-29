@@ -500,31 +500,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37
+      value: 3.8917732
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.15
+      value: 2.6106086
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5
+      value: -7.4913135
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.13584507
+      value: 0.9730327
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.15005016
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9907301
+      value: -0.17314924
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.026679352
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c5cb5949ef7acb4c9d1891b1cc6977c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1480,10 +1480,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c0a0178812d466428aca25a44e991e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 19437f43f2a128b47a6fa52e1c52a606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  postprocessMaterial: {fileID: 2100000, guid: e3c74142ffddebd45808e8adfbcc259e, type: 2}
+  postprocessMaterial: {fileID: 2100000, guid: e91db2fa81083194ab99352778f864c3, type: 2}
 --- !u!1 &1067979481
 GameObject:
   m_ObjectHideFlags: 0
