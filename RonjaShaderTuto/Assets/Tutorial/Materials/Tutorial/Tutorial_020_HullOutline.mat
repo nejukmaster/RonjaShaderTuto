@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tutorial_015_VertexDisplacement
-  m_Shader: {fileID: 4800000, guid: 3b3e23992d8619c4398a9c2d14b6d554, type: 3}
+  m_Name: Tutorial_020_HullOutline
+  m_Shader: {fileID: 4800000, guid: 115834145b440b74da19eaf80ec2af4b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,21 +21,12 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b169ae4b03547dc4497ffc4355c048be, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TerrainHolesTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.138
-    - _Frequency: 8
-    - _Glossiness: 0.5
-    - _Metallic: 0
-    - _Shininess: 0.078125
+    - _OutlineThickness: 0.03
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

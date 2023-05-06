@@ -13,7 +13,7 @@
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags { "RenderType"="Opaque" "RenderPipeline" = "UniversalPipeline"}
         LOD 200
 
         CGPROGRAM
