@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    renderPassEvent: 550
-    screenHeight: 144
+    renderPassEvent: 600
+    mat: {fileID: 2100000, guid: 950a8c0700585aa4bbb083bf1e01fe7f, type: 2}
+    screenHeight: 152
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,6 +85,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    renderPassEvent: 550
-    screenHeight: 144
-    material: {fileID: 2100000, guid: 8ff0b94a04d4a544780bae91f3791a61, type: 2}
+    renderPassEvent: 600
+    material: {fileID: 2100000, guid: ab1c3b9561c6fb24587290af03f91628, type: 2}

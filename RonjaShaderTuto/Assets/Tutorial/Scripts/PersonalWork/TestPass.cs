@@ -9,25 +9,24 @@ public class TestPass : ScriptableRenderPass
     private int testBufferID = Shader.PropertyToID("_TestBuffer");
 
     private Material material;
-    private int pixelScreenHeight, pixelScreenWidth;
 
     public TestPass(TestFeature.CustomPassSettings settings)
     {
         this.settings = settings;
         this.renderPassEvent = settings.renderPassEvent;
         if (material == null) material = settings.material;
+        ConfigureInput(ScriptableRenderPassInput.Normal);
+    }
+
+    internal bool Setup(ScriptableRenderer renderer)
+    {
+        return true;
     }
 
     public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
     {
         colorBuffer = renderingData.cameraData.renderer.cameraColorTarget;
         RenderTextureDescriptor descriptor = renderingData.cameraData.cameraTargetDescriptor;
-
-        pixelScreenHeight = settings.screenHeight;
-        pixelScreenWidth = (int)(pixelScreenHeight * renderingData.cameraData.camera.aspect + 0.5f);
-
-        descriptor.height = pixelScreenHeight;
-        descriptor.width = pixelScreenWidth;
 
         cmd.GetTemporaryRT(testBufferID, descriptor, FilterMode.Point);
         testBuffer = new RenderTargetIdentifier(testBufferID);

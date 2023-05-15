@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
+[DisallowMultipleRendererFeature]
 public class TestFeature : ScriptableRendererFeature
 {
     [System.Serializable]
@@ -9,8 +10,6 @@ public class TestFeature : ScriptableRendererFeature
     {
         //이 랜더링 패스가 언제 실행될지를 담는 RenderPassEvent Enum
         public RenderPassEvent renderPassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
-        //픽셀 랜더링시 화면의 Height
-        public int screenHeight = 144;
         public Material material;
     }
 

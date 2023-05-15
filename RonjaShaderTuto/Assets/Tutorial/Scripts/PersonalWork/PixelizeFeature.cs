@@ -10,6 +10,7 @@ public class PixelizeFeature : ScriptableRendererFeature
     {
         //이 랜더링 패스가 언제 실행될지를 담는 RenderPassEvent Enum
         public RenderPassEvent renderPassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
+        public Material mat;
         //픽셀 랜더링시 화면의 Height
         public int screenHeight = 144;
     }

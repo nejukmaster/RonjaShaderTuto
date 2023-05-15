@@ -36,8 +36,6 @@ Shader "Tutorial/016_PostProcessingBasic"
             SAMPLER(sampler_MainTex);
             float4 _MainTex_ST;
 
-            SamplerState _sampler;
-
             v2f vert (appdata v)
             {
                 v2f o;

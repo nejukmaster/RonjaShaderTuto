@@ -15,7 +15,7 @@ public class PixelizePass : ScriptableRenderPass
     //private RenderTargetIdentifier pointBuffer;
     //private int pointBufferID = Shader.PropertyToID("_PointBuffer");
 
-    private Material material;
+    [SerializeField] private Material material;
     private int pixelScreenHeight, pixelScreenWidth;
 
     //Constructor
@@ -24,7 +24,9 @@ public class PixelizePass : ScriptableRenderPass
         this.settings = settings;
         this.renderPassEvent = settings.renderPassEvent;
         //material이 null일경우 "Hidden/Pixelize"쉐이더를 사용하여 머티리얼을 생성합니다.
-        if (material == null) material = CoreUtils.CreateEngineMaterial("Hidden/Pixelize");
+        if (settings.mat == null) material = CoreUtils.CreateEngineMaterial("Hidden/Pixelize");
+        else material = settings.mat;
+        ConfigureInput(ScriptableRenderPassInput.Normal);
     }
 
     //이 메서드는 카메라를 렌더링하기 전에 렌더러에 의해 호출됩니다.
