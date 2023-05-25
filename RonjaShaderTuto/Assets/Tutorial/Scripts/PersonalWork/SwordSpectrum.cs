@@ -63,8 +63,6 @@ public class SwordSpectrum : MonoBehaviour
         {
             _frameCount = 0;
         }
-        Debug.Log(_base.transform.position);
-        Debug.Log(_previousBasePosition);
         //Draw first triangle vertices for back and front
         _vertices[_frameCount] = _base.transform.position;
         _vertices[_frameCount + 1] = _tip.transform.position;
