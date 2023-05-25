@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tutorial_010_TriplanarMapping
-  m_Shader: {fileID: 4800000, guid: e78489ed46187334b922a540ccd52551, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7fc73a6c95796c2449d1ce7039feb17f, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b169ae4b03547dc4497ffc4355c048be, type: 3}
+        m_Texture: {fileID: 2800000, guid: 373c7563f4cc1c24e9dc5c8e86ed1947, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []

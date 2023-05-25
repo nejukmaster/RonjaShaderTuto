@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tutorial_016_PostProcessingBasic
-  m_Shader: {fileID: 4800000, guid: 2bff26e8e5f7e904a9e55462761d573f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 08712c76a451f3b46bdc416807fda11e, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4

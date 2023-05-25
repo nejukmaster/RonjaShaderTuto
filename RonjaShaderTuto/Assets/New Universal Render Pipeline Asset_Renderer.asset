@@ -32,9 +32,8 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
   m_RendererFeatures:
-  - {fileID: -1960255074628943896}
-  - {fileID: 4615417236553691379}
-  m_RendererFeatureMap: e8bf953f65c6cbe4f370ffea85410d40
+  - {fileID: 2338635188450026056}
+  m_RendererFeatureMap: 48e2ca3250807420
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -50,7 +49,7 @@ MonoBehaviour:
     coreBlitColorAndDepthPS: {fileID: 4800000, guid: d104b2fc1ca6445babb8e90b0758136b, type: 3}
     cameraMotionVector: {fileID: 4800000, guid: c56b7e0d4c7cb484e959caeeedae9bbf, type: 3}
     objectMotionVector: {fileID: 4800000, guid: 7b3ede40266cd49a395def176e1bc486, type: 3}
-  m_AssetVersion: 1
+  m_AssetVersion: 2
   m_OpaqueLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -67,10 +66,28 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_DepthPrimingMode: 0
+  m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
+--- !u!114 &2338635188450026056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4032771bed22fe646ab5609eb74d775e, type: 3}
+  m_Name: PixelizeFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 550
+    mat: {fileID: 0}
+    screenHeight: 144
 --- !u!114 &4615417236553691379
 MonoBehaviour:
   m_ObjectHideFlags: 0

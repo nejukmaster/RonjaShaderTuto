@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tutorial_009_ColorInterpolation
-  m_Shader: {fileID: 4800000, guid: 5633770b7f841e345bc056af84a1530d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 980147761ec652f41b8dcdab16c682dd, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4

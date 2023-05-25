@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Custom_005_Surface
-  m_Shader: {fileID: 4800000, guid: e4eff664d50a691448fef87a9a249d25, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7686d1d6739a3b34291e797dcbc55e0f, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4

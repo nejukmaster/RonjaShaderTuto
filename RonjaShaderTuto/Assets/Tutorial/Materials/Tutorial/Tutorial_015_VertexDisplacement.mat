@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tutorial_015_VertexDisplacement
-  m_Shader: {fileID: 4800000, guid: 3b3e23992d8619c4398a9c2d14b6d554, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9133b600f9137134c93b0eaffd752b66, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
