@@ -87,7 +87,7 @@ MonoBehaviour:
   settings:
     renderPassEvent: 550
     mat: {fileID: 0}
-    screenHeight: 144
+    screenHeight: 288
 --- !u!114 &4615417236553691379
 MonoBehaviour:
   m_ObjectHideFlags: 0
