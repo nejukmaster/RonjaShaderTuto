@@ -30,7 +30,7 @@ Shader"Tutorial/025_ValueNoise"
         //inline에 대한 설명: http://www.tcpschool.com/cpp/cpp_cppFunction_inlineFunction
         //보간값을 완화할 easing함수 작성
         //easing함수(완화자)에 대한 설명 : https://ko.wikipedia.org/wiki/%EC%99%84%ED%99%94%EC%9E%90
-        inline float easeIn(float interpolator){
+        /*inline float easeIn(float interpolator){
             return interpolator * interpolator;
         }
         float easeOut(float interpolator){
@@ -40,7 +40,7 @@ Shader"Tutorial/025_ValueNoise"
             float easeInValue = easeIn(interpolator);
             float easeOutValue = easeOut(interpolator);
             return lerp(easeInValue, easeOutValue, interpolator);
-        }
+        }*/
 
         //인자 y는 fwidth로 변화율을 관찰할 프래그넌트의 y값을 갖는다.
         float ValueNoise1d(float value, float y){
