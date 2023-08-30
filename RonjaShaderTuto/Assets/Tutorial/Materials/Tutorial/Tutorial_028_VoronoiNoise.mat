@@ -23,7 +23,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _CellSize: 0.283
+    - _CellSize: 0.397
     - _NoiseDemension: 1
     m_Colors:
     - _BorderColor: {r: 0.3962264, g: 0.25605196, b: 0.25605196, a: 1}
