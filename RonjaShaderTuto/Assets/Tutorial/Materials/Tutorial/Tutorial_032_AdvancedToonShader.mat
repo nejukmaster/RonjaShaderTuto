@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tutorial_031_SinglestepToonShader
-  m_Shader: {fileID: 4800000, guid: 7e7699e63a12a514985fb35befb86fe1, type: 3}
+  m_Name: Tutorial_032_AdvancedToonShader
+  m_Shader: {fileID: 4800000, guid: 66e66e06e0f1c1848b579e0d718a95ad, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -26,10 +26,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Glossiness: 0.397
+    - _Glossiness: 0.5
     - _Metallic: 0
+    - _SpecularFalloff: 1.014
+    - _SpecularSize: 0.366
+    - _StepAmount: 3
+    - _StepWidth: 0.25
     m_Colors:
-    - _Color: {r: 1, g: 0.6839622, b: 0.6839622, a: 1}
+    - _Color: {r: 1, g: 0.68235296, b: 0.68235296, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowTint: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowTint: {r: 0.4056604, g: 0.2277056, b: 0.2277056, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
