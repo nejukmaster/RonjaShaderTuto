@@ -10,7 +10,7 @@ Material:
   m_Name: Tutorial_028_VoronoiNoise
   m_Shader: {fileID: 4800000, guid: 05f8f265d0a668e45997ba80641f90cc, type: 3}
   m_ValidKeywords:
-  - _NOISEDEMENSION_3D
+  - _NOISEDEMENSION_2D
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -23,8 +23,8 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _CellSize: 0.397
-    - _NoiseDemension: 1
+    - _CellSize: 1.102
+    - _NoiseDemension: 0
     m_Colors:
-    - _BorderColor: {r: 0.3962264, g: 0.25605196, b: 0.25605196, a: 1}
+    - _BorderColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

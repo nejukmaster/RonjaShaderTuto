@@ -22,7 +22,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _CellSize: 0.083
+    - _CellSize: 0.603
     m_Colors:
     - _CellSize: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
