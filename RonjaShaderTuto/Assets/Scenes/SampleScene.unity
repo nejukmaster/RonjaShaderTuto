@@ -2638,14 +2638,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176995466}
-  m_LocalRotation: {x: 0.09085347, y: -0.6217635, z: 0.24941635, w: -0.7368496}
-  m_LocalPosition: {x: -2.818839, y: 1.4947566, z: 3.427825}
+  m_LocalRotation: {x: -0.05800606, y: 0.9151353, z: -0.14253293, w: -0.37262174}
+  m_LocalPosition: {x: 4.3092656, y: 0.8823118, z: 2.4029245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 10.152, y: 77.663, z: -29.222}
+  m_LocalEulerAnglesHint: {x: 11.933, y: 219.397, z: 28.592}
 --- !u!1 &1256574742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,7 +2938,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: f8f6de0d890e8b34c97328dd2d7b5a6c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e795ab36409a68247a17ee7d55b55b84, type: 2}
+      objectReference: {fileID: 2100000, guid: c366992fc28d50043abb30c4e83435ac, type: 2}
     - target: {fileID: 919132149155446097, guid: f8f6de0d890e8b34c97328dd2d7b5a6c, type: 3}
       propertyPath: m_Name
       value: Suzanne (1)
